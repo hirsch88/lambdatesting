@@ -1,0 +1,18 @@
+{
+  "name": "lambdatesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run  cy:open",
+    "test": "npm run  cy:run",
+    "cy:install": "cypress install",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
