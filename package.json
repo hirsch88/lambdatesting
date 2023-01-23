@@ -1,8 +1,7 @@
 {
   "name": "lambdatesting",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Test package for the service of lambda testing with cypress",
   "scripts": {
     "start": "npm run  cy:open",
     "test": "npm run  cy:run",
@@ -10,10 +9,10 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "hirsch88",
+  "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.3.0",
-    "typescript": "^4.9.4"
+    "cypress": "12.3.0",
+    "typescript": "4.9.4"
   }
 }
