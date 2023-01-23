@@ -1,0 +1,34 @@
+{
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "hirsch-test",
+      "parallels": 1,
+      "specs": "**/*.cy.ts",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "12.3.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
